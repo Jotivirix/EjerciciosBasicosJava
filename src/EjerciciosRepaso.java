@@ -68,6 +68,10 @@ public class EjerciciosRepaso extends ConsoleProgram {
 		println(withoutDoubles(5,4,true));
 		println(withoutDoubles(6,6,false));
 		println(withoutDoubles(4,4,true));
+		println("La letra del DNI");
+		println("La letra de su DNI es la: " + letraDNI(53995304));
+		println("La letra de su DNI es la: " + letraDNI(679518));
+		println("La letra de su DNI es la: " + letraDNI(2517096));
 		
 	}
 
@@ -184,6 +188,78 @@ public class EjerciciosRepaso extends ConsoleProgram {
 		return 0;
 	}
 
+	public char letraDNI (double numero){
+		if(numero%23==0){
+			return 'T';
+		}
+		if(numero%23==1){
+			return 'R';
+		}
+		if(numero%23==2){
+			return 'W';
+		}
+		if(numero%23==3){
+			return 'A';
+		}
+		if(numero%23==4){
+			return 'G';
+		}
+		if(numero%23==5){
+			return 'M';
+		}
+		if(numero%23==6){
+			return 'Y';
+		}
+		if(numero%23==7){
+			return 'F';
+		}
+		if(numero%23==8){
+			return 'P';
+		}
+		if(numero%23==9){
+			return 'D';
+		}
+		if(numero%23==10){
+			return 'X';
+		}
+		if(numero%23==11){
+			return 'B';
+		}
+		if(numero%23==12){
+			return 'N';
+		}
+		if(numero%23==13){
+			return 'J';
+		}
+		if(numero%23==14){
+			return 'Z';
+		}
+		if(numero%23==15){
+			return 'S';
+		}
+		if(numero%23==16){
+			return 'Q';
+		}
+		if(numero%23==17){
+			return 'V';
+		}
+		if(numero%23==18){
+			return 'H';
+		}
+		if(numero%23==19){
+			return 'L';
+		}
+		if(numero%23==20){
+			return 'C';
+		}
+		if(numero%23==21){
+			return 'K';
+		}
+		if(numero%23==22){
+			return 'E';
+		}
+		return 0;
+	}
 
 
 }
